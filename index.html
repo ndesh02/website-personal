@@ -24,7 +24,7 @@
             .navbar{
                 overflow: hidden;
                 background-color: #333;
-                position:fixed;/*may want to remove*/
+                /*position:fixed;may want to remove*/
             }
             .navbar a{
                 float: left;
@@ -39,14 +39,16 @@
                 color: black;
             }
             .row {
+                width: 100%;
                 display: flex;
                 flex-wrap: wrap;
             }
 
             .side {
-                flex: 30%;
+                /*flex: 30%;*/
                 background-color: #f1f1f1;
                 padding: 20px;
+                height:100%;
                 width: 100px;
                 top:0;
                 left:0;
@@ -92,7 +94,9 @@
             <a href="#">link1</a>
         </div>
 
-
+        <div class="row">
+            <h1>hola</h1>
+        </div>
 
         <div class="side">
             <h1>hi</h1>
